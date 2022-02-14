@@ -1,10 +1,20 @@
-.container {
+#book-form {
   display: flex;
   flex-direction: column;
   width: fit-content;
   gap: 1rem;
 }
 
-.container button {
+#book-form button {
   width: fit-content;
 }
+
+.added-book {
+  list-style-type: none;
+  padding-inline-start: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid grey ;
+  width: 50%;
+}
+
+hr { width: 50%; }
